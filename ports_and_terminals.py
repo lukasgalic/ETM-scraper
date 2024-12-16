@@ -66,7 +66,7 @@ try:
                             By.TAG_NAME, 'a')
                         if link3:
                             href = link3.get_attribute(
-                                'href')  # Get the URL
+                                'href')
 
                             driver.get(href)
                             time.sleep(1)

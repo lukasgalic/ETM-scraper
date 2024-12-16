@@ -46,7 +46,6 @@ try:
             for i in range(len(services_list)):
                 services_list = driver.find_elements(
                     By.CSS_SELECTOR, '.map-menu-list-witharrows li')
-                # print("County: " + county.text)
                 service = services_list[i]
                 service_text = service.text
 
